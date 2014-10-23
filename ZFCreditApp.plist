@@ -1,21 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=320, height=460, user-scalable=no,
-initial-scale=1.0" />
-<title>Install Dev App</title>
-    <script language="javascript" type="text/javascript">
-        // 以下方式直接跳转
-        window.location.href='itms-services://?action=download-manifest&url=https://git.oschina.net/applist/DemoPlist/raw/master/zfcreditapp.plist';
-        // 以下方式定时跳转
-        //setTimeout("javascript:location.href='hello.html'", 5000);
-    </script>
-</head>
-<br/><br/><br/>
-<body>
-    <div align="center">
-        <a id="btnInstallApp" href="itms-services://?action=download-manifest&url=https://git.oschina.net/applist/DemoPlist/raw/master/zfcreditapp.plist"  style="color:orange; font-size:24px">
-            凤凰信用</a>
-    </div>
-</body>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://211.151.175.126/data/app_dl/ZFCreditApp.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.ifeng.zfcreditapp</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>凤凰信用</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
