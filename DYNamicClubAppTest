@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://210.51.18.240:8081/upload/file/DYNamicClubApp.ipa</string>
+					<string>http://210.51.18.240:8081/upload/file/DYNamicClubAppTest.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -23,7 +23,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>动感地带俱乐部</string>
+				<string>动感地带俱乐部测试版本</string>
 			</dict>
 		</dict>
 	</array>
